@@ -14,9 +14,9 @@ int main (void){
 	//khai bao CV va DT
 	double CV , DT;
 	
-	//Gan va ep kieu double CV  
-	CV =(double) 2*R*PI;
-	DT =(double) R*R*PI;
+	//Gan CV va DT  
+	CV =2*R*PI;
+	DT =R*R*PI;
 	
 	//Xuat ket qua 
 	printf("%g\t   %g",CV,DT);
