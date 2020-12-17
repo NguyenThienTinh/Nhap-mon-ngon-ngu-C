@@ -14,7 +14,7 @@ int main() {
   }
   
   else if (soluong>=5 && dongia >= 500){
-  	//các loai hàng hóa duoc giam giá 50% neu so luong mua tu 5 san pham tro len va don gia >= 500 
+  	//các loai hàng hóa duoc giam giá 50% neu so luong mua tu 5 san pham tro len
   thanhtien = (dongia*soluong)*50/100;
   	printf("thanh tien \n");
   	printf ("%d",thanhtien );
