@@ -9,7 +9,7 @@ int main() {
   
   if (soluong <5){
   thanhtien = dongia * soluong;
-  printf("Thanh tien, Cam on quy khach \n");
+  printf("Thanh tien \n");
   printf("%d",thanhtien);	
   }
   
