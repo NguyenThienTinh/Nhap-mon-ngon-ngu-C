@@ -9,11 +9,11 @@ int main(){
   switch(pt) {
   	// Phep tinh +
     case '+': 
-	 		printf (" a + b = %d",a + b);
+	 printf (" a + b = %d",a + b);
       break;
     // Phep tinh - 
   	case '-':
-	   		printf (" a - b = %d",a - b);
+	 printf (" a - b = %d",a - b);
       break;
       default:
        printf(" Moi ban nhap phep + hoac - ");
