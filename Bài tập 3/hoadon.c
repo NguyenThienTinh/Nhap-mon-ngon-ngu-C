@@ -10,12 +10,12 @@ int main() {
   if (soluong <5){
   thanhtien = dongia * soluong;
   printf("Thanh tien, Cam on quy khach \n");
-  printf("%d",thanhtien, Cam on quy khach);
+  printf("%d",thanhtien);	
   }
   
-  else if (soluong>=5){
-  	//các loai hàng hóa duoc giam giá 25% neu so luong mua tu 5 san pham tro len  
-  thanhtien = (dongia*soluong)*75/100;
+  else if (soluong>=5 && dongia >= 500){
+  	//cÃ¡c loai hÃ ng hÃ³a duoc giam giÃ¡ 50% neu so luong mua tu 5 san pham tro len va don gia >= 500 
+  thanhtien = (dongia*soluong)*50/100;
   	printf("thanh tien \n");
   	printf ("%d",thanhtien );
   }
