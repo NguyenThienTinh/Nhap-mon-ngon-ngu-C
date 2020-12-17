@@ -1,2 +1,3 @@
 trước chữ && là địa chỉ bộ nhớ 
+char là sử dụng cho kí tự 
 
