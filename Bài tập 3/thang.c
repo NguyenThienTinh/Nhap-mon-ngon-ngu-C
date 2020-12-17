@@ -7,6 +7,9 @@ int main(){
   scanf ("%d",&thang);
   switch(thang) 
   {
+     case 1: 
+                printf ("30 ngay");
+      break;
     case 2: 
 	 	printf ("28 ngay");
       break;
@@ -40,7 +43,8 @@ int main(){
 	case 12: 
 	 	printf ("31 ngay");
       break;
-	          	  		 
+	defaut:
+	pritntf("31 ngay");
   	}
   //Xuat ket qua 
   return 0;
