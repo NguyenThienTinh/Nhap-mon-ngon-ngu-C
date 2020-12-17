@@ -1,1 +1,2 @@
+trước chữ && là địa chỉ bộ nhớ 
 
