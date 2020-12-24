@@ -1,4 +1,4 @@
 trước chữ && là địa chỉ bộ nhớ 
 char là sử dụng cho kí tự 
 break là để ngắt các đoạn ( nếu ko break nó sẽ hiện tất cả các trường hợp trừ flaut là cuối cùng nên ko cần break)
-
+dem = dem+1 tương đương với đếm ++
