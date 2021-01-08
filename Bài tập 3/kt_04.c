@@ -4,15 +4,16 @@ int main(){
 int n,a,S=0;
 
 	printf("Nhap so n =  "); scanf("%d",&n);
-    // chia lay so du VD: 123 / 10 =12.3 ( được 12 dư 3)
+// chia lay so du VD: 123 / 10 =12.3 ( được 12 dư 3)
+// Buoc 1:
 	a = n % 10; 
 	S= S + a ;
 	n/= 10;
-	
+// Buoc 2:	
 	a = n % 10; 
 	S= S + a ;
 	n/= 10;
-	
+// Buoc 3:	
 	a = n % 10; 
 	S= S + a ;
 	n/= 10;
