@@ -1,3 +1,4 @@
+CODE Không dùng vòng lặp
 #include <stdio.h>
 int main(){
 //KHAI BAO BIEN 
@@ -20,5 +21,22 @@ int n,a,S=0;
 		
 	printf("%d\n",S);
 //XUAT KET QUA	
+	return 0;
+}
+CODE Dùng vòng lặp
+#include <stdio.h>
+int main(){
+//KHAI BAO BIEN 
+int n,a,S=0;
+
+	printf("Nhap so n =  "); scanf("%d",&n);
+  for (;n > 0; a++) {
+	a = n % 10; 
+	S= S + a ;
+	n/= 10;  
+	printf("%d\n",S);
+
+  }
+  //XUAT KET QUA	
 	return 0;
 }
