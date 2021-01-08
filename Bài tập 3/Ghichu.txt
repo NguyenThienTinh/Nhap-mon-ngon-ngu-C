@@ -2,3 +2,26 @@ trước chữ && là địa chỉ bộ nhớ
 char là sử dụng cho kí tự 
 break là để ngắt các đoạn ( nếu ko break nó sẽ hiện tất cả các trường hợp trừ flaut là cuối cùng nên ko cần break)
 dem = dem+1 tương đương với đếm ++
+
+VÒNG LẶP FOR
+for ( khởi tạo bộ đếm; điều kiện; bước đếm);
+//Các lệnh
+{
+VD:
+for (int i = 1; 1 <= 10; i = i++) {
+prift();
+}
+
+VÒNG LẶP WHILE
+Khời tạo bộ đếm
+while(điều kiện)
+{
+//LỆNH THỰC THI
+BƯỚC ĐẾM
+}
+VD:
+int i = 1;
+while(n>0){
+printf();
+i++;
+}
