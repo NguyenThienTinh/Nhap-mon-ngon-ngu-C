@@ -11,9 +11,9 @@ int main()
     {
    // Hien thi cac so trong mang a 
         printf("%d\n", a[i]);
-        s +=a[i];
+        s = s + a[i];
     }
- 	      printf ("tong =%d\n",s);
+ 	      printf ("Tong = %d\n",s);
   // Xuat ket qua
     return 0;
 }
