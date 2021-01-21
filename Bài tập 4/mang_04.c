@@ -3,7 +3,8 @@
 int main()
 {
    //Khai bao bien
-    int	n,s=0;
+    int	n,
+    int sum = 0;
     printf("Nhap so nguyen n: ");
     scanf("%d", &n);
       int a[n];
@@ -15,7 +16,7 @@ int main()
         printf("Cac phan tu trong mang a: ");
     for(int i = 0; i < n; i++){
       printf(" %d",a[i]);
-       s = s + a[i];
+       sum = sum + a[i];
     }
         printf("\nTong cac con so trong mang = %d",s);
      return 0;
