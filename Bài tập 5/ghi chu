@@ -1,5 +1,6 @@
+//Khoi tao
 #include <stdio.h>
-
+//Bien cuc khoi toan chuong trinh
 int x = 1, y = 2;//bien cuc bo 
 
 void ham_a(int x);
@@ -9,15 +10,15 @@ void ham_b();
 int main(void) {
   int x = 3;//gán x=3 cho ham main
   printf("%d", x);//in ra man hinh KQ la 3
-  printf("%d", y);//in ra man hinh KQ la 2 vi tren bien cuc bo cho y=2
-  ham_a(x);//in ra KQ la 5
-  ham_b();//in ra KQ la 2
+  printf("%d", y);//in ra man hinh KQ la 2 
+  ham_a(x);//in ra = 5
+  ham_b();//in ra = 2
   return 0;
 }
 void ham_a(int x){//tra ve gia tri của ham ham_a
   x = 5;//gán x=5 cho ham ham_a
-  printf("%d", x);// in ra ket qua la 5
+  printf("%d", x);// in ket qua = 5
 }
 void ham_b(){//tra ve gia tri cua ham ham_b
-   printf("%d", y);//in ra la 2 vi trên bien cuc bo đã gán y=2
+   printf("%d", y);//in ra y=2
 }
