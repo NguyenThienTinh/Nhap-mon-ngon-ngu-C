@@ -19,8 +19,8 @@ Khái niệm: Biến (Variables) một chương trình có thể quản lí đư
 + Kích thước bộ nhớ (Kiểu dữ liệu)
 + Vị trí bộ nhớ (Địa chỉ bộ nhớ)
 Các ngôn ngữ lập trình hiện đại chúng ta sử dụng tên biểu tên tượng trưng như Biến (Variables),chỉ đến 1 vùng bộ nhớ mà các giá trị lưu trữ.
-Cú pháp: Kiểu_dữ_liệu Tên_biến;
-         Kiểu_dữ_liệu Tên_biến = Gía_trị;Ví dụ như int num 7
+Cú pháp: "Kiểu_dữ_liệu", "Tên_biến";
+         "Kiểu_dữ_liệu", "Tên_biến" = Gía_trị;Ví dụ như int num 7
 
 Câu 4:
 - Biến cục bộ: Là các biến được khai báo có hàm vi hoạt động trong nội bộ hàm, được khai bao ở trong hàm. Trong phạm vi hoạt động trên cùng 1 hàm tham số thực và biến cục bộ cần có tên khác nhau. 
